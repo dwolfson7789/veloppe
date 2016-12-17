@@ -41,8 +41,6 @@ url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
 
 
 
-
-
 .testimonial span {
   font-family: 'NTR', sans-serif;
   font-size: 14px;
@@ -58,7 +56,7 @@ url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
    background-color:#2eb2ff;
    height:120px;
    padding-bottom:20px;
-   text-align: center;
+
  }
 
 
@@ -71,30 +69,6 @@ url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
   margin-left: 35%;
 }
 
-#sub {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 35px;
-  text-align: center;
-  padding: 2px;
-}
-
-#underCover img {
-  height:auto;
-  width:9rem;
-  margin-left: 7%;
-  display: inline-block;
-
-}
-
-#underCover h2 {
-  color: black;
-  display: inline;
-  font-family: 'Passion One', cursive;
-  font-size:25px;
-  padding:10px;
-  margin-left: 3%;
-
-}
 
 .blink_text {
     -webkit-animation-name: blinker;
@@ -114,14 +88,47 @@ url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
 
 }
 
+#summary img {
+  box-shadow: 3px 10px 5px 10px;
+}
+
+
+
+#sub {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  padding: 2px;
+}
+
+#underCover img {
+  height:auto;
+  width:8rem;
+  margin-left: 3%;
+  padding: 10px;
+  display: inline-block;
+
+}
+
+#underCover h2 {
+  color: black;
+  display: inline;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size:18px;
+  padding:6px;
+  margin-left: 1%;
+  letter-spacing: 1px;
+  font-weight: bold;
+
+}
 
 
   #allStuff p {
   text-align: center;
   width: auto;
   line-height: 20px;
-  font-size: 18px;
-  font-family: 'NTR', sans-serif;
+  font-size: 20px;
+  /*font-family: 'NTR', sans-serif;*/
   /*font-family: 'Open Sans Condensed', sans-serif;*/
 
 }
@@ -178,16 +185,20 @@ url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
  /*mobile/tablet*/
 @media only screen and (max-width: 768px) {
 
+  .scroll span1 {
+font-size: 35px;
+margin-right: 40%;
+ }
   #underCover h2 {
-  font-size:11px;
-  margin-left:1%;
+  font-size:12px;
 
   }
   #allStuff img{
     width:60px;
-    height:50px;
+    height:60px;
     margin-left: 3%;
   }
+
 }
 
 
