@@ -2,6 +2,7 @@
 url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 
 
@@ -28,7 +29,7 @@ url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
 
 .logo img{
   height: 48px;
-  width: 170px;
+  width: 160px;
   margin-bottom:10px;
 
 }
@@ -39,30 +40,42 @@ url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
 }
 
 
+
+
+
 .testimonial span {
   font-family: 'NTR', sans-serif;
   font-size: 14px;
 }
 
-.break {
+  .break {
   color:black;
   font-size:40px;
   text-align: center;
 }
- .new {
+
+ .scroll {
    background-color:#2eb2ff;
    height:120px;
    padding-bottom:20px;
+   text-align: center;
  }
 
 
 
-.new b {
+.scroll b {
   float: left;
   overflow: hidden;
   position: relative;
   height: 60px;
   margin-left: 35%;
+}
+
+#sub {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  padding: 2px;
 }
 
 #underCover img {
@@ -83,14 +96,34 @@ url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
 
 }
 
+.blink_text {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 3s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; color: red;
+    font-family: 'Passion One', cursive;
+    font-size: 25px;
+
+}
+
+
 
   #allStuff p {
   text-align: center;
-  width: 80%;
+  width: auto;
   line-height: 20px;
-  margin-left: 5%;
   font-size: 18px;
   font-family: 'NTR', sans-serif;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+
 }
 
   #galleryFull span{
@@ -111,9 +144,28 @@ url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
    font-size: 40px;
  }
 
+/*BLINK*/
+@-moz-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1.0; }
+}
 
 
 
+/*CREATIVE*/
 @keyframes move {
   0%  { top: 1px; }
   20% { top: -80px; }
