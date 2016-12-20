@@ -129,6 +129,8 @@ $('.inline-popup').magnificPopup({
 });
 
 
+
+
 /*$('.grid').masonry({
   // options
   itemSelector: '.grid-item',
